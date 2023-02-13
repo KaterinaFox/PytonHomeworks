@@ -21,7 +21,6 @@ ten = frozenset({"Q", "Z","Ф", "Щ", "Ъ"})
 my_dic ={one:1, two:2, tree:3, four:4, five:5, eight:8, ten:10}
 print("Ввведите слово:")
 word = list(input())
-print(word)
 count = 0
 for i in word:
     for key,value in my_dic.items():
